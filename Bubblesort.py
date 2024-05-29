@@ -8,6 +8,8 @@ def perfomancebubblesort(nums):
                 nums[index]=nums[index+1]
                 nums[index+1]=temp
         print(nums)
-        fixthisindex=-1
+        fixthisindex-=1
 nums=[10,28,7,9,2,3]
 print("before sorting",nums)
+print("after sorting",nums)
+perfomancebubblesort(nums)
